@@ -1,9 +1,9 @@
 # RTS Labs Exercise
-**Author:** Brandon Toney
-**Date:** 2021-08-31
-**Language:** Java
-**To Compile:** ```javac Main.java```
-**To Run:** ```java Main.java```
+**Author:** Brandon Toney  
+**Date:** 2021-08-31  
+**Language:** Java  
+**To Compile:** ```javac Main.java```  
+**To Run:** ```java Main.java``` 
 
 
 ### 1) Print the number of integers in an array that are above the given input and the number that are below, e.g. for the array [1, 5, 2, 1, 10] with input 6, print "above: 1, below: 4"
