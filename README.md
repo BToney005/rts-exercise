@@ -11,12 +11,12 @@ Implementation and function call can be found at:
 
 **Main.java:8:**  
 
-	 public static void printIntegersAboveBelow(int arr[], int inputNum) { ... }
+    public static void printIntegersAboveBelow(int arr[], int inputNum) { ... }
 
 
-**Main.java:56:** 
+**Main.java:55:** 
 
-	printIntegersAboveBelow(array, 6);
+    printIntegersAboveBelow(array, 6);
 
 ### 2)  Rotate the characters in a string by a given input and have the overflow appear at the beginning, e.g. "MyString" rotated by 2 is "ngMyStri"
 Implementation and function calls can be found at:
@@ -25,7 +25,7 @@ Implementation and function calls can be found at:
 
 	public static String rotateString(String str, int dist) { ... }
 
-**Main.java:62:**
+**Main.java:61-64:**
 
 	int rotateN[] = {2, -3, 12, -9, 0}; 
 	for (int  n  :  rotateN) { 

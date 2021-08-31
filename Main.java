@@ -31,13 +31,12 @@ public class Main {
 
         if (dist < 0) {
             dist = Math.abs(dist) % str.length();
-            head = str.substring(dist);
-            tail = str.substring(0, dist);
         } else {
             dist = str.length() - dist % str.length();
-            head = str.substring(dist);
-            tail = str.substring(0, dist);
         }
+
+        head = str.substring(dist);
+        tail = str.substring(0, dist);
 
         return head.concat(tail);
     }
